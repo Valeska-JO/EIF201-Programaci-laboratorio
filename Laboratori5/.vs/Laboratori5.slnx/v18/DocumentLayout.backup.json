@@ -3,6 +3,18 @@
   "WorkspaceRootPath": "C:\\Users\\Biblioteca_Coto\\Desktop\\Programaci\u00F3nI\\Newrepo\\EIF201-Programaci-laboratorio\\Laboratori5\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{0BF90192-8BEB-4308-8F55-6995DCB20593}|Laboratori5\\Laboratori5.vcxproj|C:\\Users\\Biblioteca_Coto\\Desktop\\Programaci\u00F3nI\\Newrepo\\EIF201-Programaci-laboratorio\\Laboratori5\\Laboratori5\\RotacionCircular.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{0BF90192-8BEB-4308-8F55-6995DCB20593}|Laboratori5\\Laboratori5.vcxproj|solutionrelative:Laboratori5\\RotacionCircular.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0BF90192-8BEB-4308-8F55-6995DCB20593}|Laboratori5\\Laboratori5.vcxproj|C:\\Users\\Biblioteca_Coto\\Desktop\\Programaci\u00F3nI\\Newrepo\\EIF201-Programaci-laboratorio\\Laboratori5\\Laboratori5\\RotacionCircular.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{0BF90192-8BEB-4308-8F55-6995DCB20593}|Laboratori5\\Laboratori5.vcxproj|solutionrelative:Laboratori5\\RotacionCircular.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0BF90192-8BEB-4308-8F55-6995DCB20593}|Laboratori5\\Laboratori5.vcxproj|C:\\Users\\Biblioteca_Coto\\Desktop\\Programaci\u00F3nI\\Newrepo\\EIF201-Programaci-laboratorio\\Laboratori5\\Laboratori5\\NodoLocutor.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{0BF90192-8BEB-4308-8F55-6995DCB20593}|Laboratori5\\Laboratori5.vcxproj|solutionrelative:Laboratori5\\NodoLocutor.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{0BF90192-8BEB-4308-8F55-6995DCB20593}|Laboratori5\\Laboratori5.vcxproj|C:\\Users\\Biblioteca_Coto\\Desktop\\Programaci\u00F3nI\\Newrepo\\EIF201-Programaci-laboratorio\\Laboratori5\\Laboratori5\\HistorialDoble.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{0BF90192-8BEB-4308-8F55-6995DCB20593}|Laboratori5\\Laboratori5.vcxproj|solutionrelative:Laboratori5\\HistorialDoble.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
@@ -17,14 +29,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{0BF90192-8BEB-4308-8F55-6995DCB20593}|Laboratori5\\Laboratori5.vcxproj|C:\\Users\\Biblioteca_Coto\\Desktop\\Programaci\u00F3nI\\Newrepo\\EIF201-Programaci-laboratorio\\Laboratori5\\Laboratori5\\Laboratori5.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{0BF90192-8BEB-4308-8F55-6995DCB20593}|Laboratori5\\Laboratori5.vcxproj|solutionrelative:Laboratori5\\Laboratori5.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0BF90192-8BEB-4308-8F55-6995DCB20593}|Laboratori5\\Laboratori5.vcxproj|C:\\Users\\Biblioteca_Coto\\Desktop\\Programaci\u00F3nI\\Newrepo\\EIF201-Programaci-laboratorio\\Laboratori5\\Laboratori5\\RotacionCircular.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{0BF90192-8BEB-4308-8F55-6995DCB20593}|Laboratori5\\Laboratori5.vcxproj|solutionrelative:Laboratori5\\RotacionCircular.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0BF90192-8BEB-4308-8F55-6995DCB20593}|Laboratori5\\Laboratori5.vcxproj|C:\\Users\\Biblioteca_Coto\\Desktop\\Programaci\u00F3nI\\Newrepo\\EIF201-Programaci-laboratorio\\Laboratori5\\Laboratori5\\NodoLocutor.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{0BF90192-8BEB-4308-8F55-6995DCB20593}|Laboratori5\\Laboratori5.vcxproj|solutionrelative:Laboratori5\\NodoLocutor.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,8 +38,21 @@
       "DocumentGroups": [
         {
           "DockedWidth": 215,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 0,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "RotacionCircular.cpp",
+              "DocumentMoniker": "C:\\Users\\Biblioteca_Coto\\Desktop\\Programaci\u00F3nI\\Newrepo\\EIF201-Programaci-laboratorio\\Laboratori5\\Laboratori5\\RotacionCircular.cpp",
+              "RelativeDocumentMoniker": "Laboratori5\\RotacionCircular.cpp",
+              "ToolTip": "C:\\Users\\Biblioteca_Coto\\Desktop\\Programaci\u00F3nI\\Newrepo\\EIF201-Programaci-laboratorio\\Laboratori5\\Laboratori5\\RotacionCircular.cpp",
+              "RelativeToolTip": "Laboratori5\\RotacionCircular.cpp",
+              "ViewState": "AgIAAI8AAAAAAAAAAAAjwJsAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2026-05-13T22:06:59.057Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
@@ -50,59 +67,59 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "HistorialDoble.cpp",
               "DocumentMoniker": "C:\\Users\\Biblioteca_Coto\\Desktop\\Programaci\u00F3nI\\Newrepo\\EIF201-Programaci-laboratorio\\Laboratori5\\Laboratori5\\HistorialDoble.cpp",
               "RelativeDocumentMoniker": "Laboratori5\\HistorialDoble.cpp",
               "ToolTip": "C:\\Users\\Biblioteca_Coto\\Desktop\\Programaci\u00F3nI\\Newrepo\\EIF201-Programaci-laboratorio\\Laboratori5\\Laboratori5\\HistorialDoble.cpp",
               "RelativeToolTip": "Laboratori5\\HistorialDoble.cpp",
-              "ViewState": "AgIAAOEAAAAAAAAAAAAIwP4AAAACAAAAAAAAAA==",
+              "ViewState": "AgIAAOkAAAAAAAAAAAAAAP8AAAADAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2026-05-13T20:46:38.522Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 1,
               "Title": "RotacionCircular.h",
               "DocumentMoniker": "C:\\Users\\Biblioteca_Coto\\Desktop\\Programaci\u00F3nI\\Newrepo\\EIF201-Programaci-laboratorio\\Laboratori5\\Laboratori5\\RotacionCircular.h",
               "RelativeDocumentMoniker": "Laboratori5\\RotacionCircular.h",
               "ToolTip": "C:\\Users\\Biblioteca_Coto\\Desktop\\Programaci\u00F3nI\\Newrepo\\EIF201-Programaci-laboratorio\\Laboratori5\\Laboratori5\\RotacionCircular.h",
               "RelativeToolTip": "Laboratori5\\RotacionCircular.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAAB4AAAAGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2026-05-13T20:16:40.494Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 2,
               "Title": "NodoLocutor.h",
               "DocumentMoniker": "C:\\Users\\Biblioteca_Coto\\Desktop\\Programaci\u00F3nI\\Newrepo\\EIF201-Programaci-laboratorio\\Laboratori5\\Laboratori5\\NodoLocutor.h",
               "RelativeDocumentMoniker": "Laboratori5\\NodoLocutor.h",
               "ToolTip": "C:\\Users\\Biblioteca_Coto\\Desktop\\Programaci\u00F3nI\\Newrepo\\EIF201-Programaci-laboratorio\\Laboratori5\\Laboratori5\\NodoLocutor.h",
               "RelativeToolTip": "Laboratori5\\NodoLocutor.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2026-05-13T20:16:24.106Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "HistorialDoble.h",
               "DocumentMoniker": "C:\\Users\\Biblioteca_Coto\\Desktop\\Programaci\u00F3nI\\Newrepo\\EIF201-Programaci-laboratorio\\Laboratori5\\Laboratori5\\HistorialDoble.h",
               "RelativeDocumentMoniker": "Laboratori5\\HistorialDoble.h",
               "ToolTip": "C:\\Users\\Biblioteca_Coto\\Desktop\\Programaci\u00F3nI\\Newrepo\\EIF201-Programaci-laboratorio\\Laboratori5\\Laboratori5\\HistorialDoble.h",
               "RelativeToolTip": "Laboratori5\\HistorialDoble.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAAZAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2026-05-13T20:15:53.58Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 5,
               "Title": "NodoHistorial.h",
               "DocumentMoniker": "C:\\Users\\Biblioteca_Coto\\Desktop\\Programaci\u00F3nI\\Newrepo\\EIF201-Programaci-laboratorio\\Laboratori5\\Laboratori5\\NodoHistorial.h",
               "RelativeDocumentMoniker": "Laboratori5\\NodoHistorial.h",
@@ -110,12 +127,11 @@
               "RelativeToolTip": "Laboratori5\\NodoHistorial.h",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2026-05-13T20:15:30.288Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-13T20:15:30.288Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 6,
               "Title": "Laboratori5.cpp",
               "DocumentMoniker": "C:\\Users\\Biblioteca_Coto\\Desktop\\Programaci\u00F3nI\\Newrepo\\EIF201-Programaci-laboratorio\\Laboratori5\\Laboratori5\\Laboratori5.cpp",
               "RelativeDocumentMoniker": "Laboratori5\\Laboratori5.cpp",
@@ -123,8 +139,7 @@
               "RelativeToolTip": "Laboratori5\\Laboratori5.cpp",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2026-05-13T20:13:09.523Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-13T20:13:09.523Z"
             }
           ]
         }
