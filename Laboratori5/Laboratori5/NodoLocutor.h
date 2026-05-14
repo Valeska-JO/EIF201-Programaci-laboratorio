@@ -9,9 +9,10 @@ namespace EIF201 {
 	struct NodoLocutor {
 
 		string nombre;
+		int turnosAsignados;
 		NodoLocutor* siguiente;
 
-		NodoLocutor(const string& n) : nombre(n), siguiente(nullptr) {
+		NodoLocutor(const string& n) : nombre(n), turnosAsignados(0), siguiente(nullptr) {
 			cout << "[NodoLocutor creado:" << n << "]" << endl;
 		}
 		~NodoLocutor() {

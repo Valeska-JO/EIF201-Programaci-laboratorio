@@ -13,8 +13,10 @@ namespace EIF201 {
 	public:
 		RotacionCircular();
 		~RotacionCircular();
+
 		void insertarAlFinal(const string& nombre);
 		void insertarAlInicio(const string& nombre);
+
 		bool insertarDespuesDe(const string& referencia, const string& nuevo_nombre);
 		bool existeLocutor(const string& nombre) const;
 		int obtenerPosicion(const string& nombre) const;
@@ -24,6 +26,10 @@ namespace EIF201 {
 		string siguiente();
 		void simularTurnos(int n);
 		void imprimirRotacion() const;
+		
+		void imprimirEstadistica() const;
+		string locutorMasActivo() const;
+
 		int getCantidad() const;
 		bool estaVacia() const;
 	};

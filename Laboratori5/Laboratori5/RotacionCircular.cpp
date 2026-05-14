@@ -67,7 +67,29 @@ namespace EIF201 {
             actual = actual->siguiente;
         } while (actual != cabeza);
         return false;
+    }
+
+    bool RotacionCircular::existeLocutor(const string& nombre) const {
+
+        if (cola == nullptr) {
+            return false;
         }
+
+        NodoLocutor* cabeza = getCabeza();
+        NodoLocutor* actual = cabeza;
+
+        do {
+
+            if (actual->nombre == nombre) {
+                return true;
+            }
+
+            actual = actual->siguiente;
+
+        } while (actual != cabeza);
+
+        return false;
+    }
     int RotacionCircular::obtenerPosicion(const string& nombre) const {
         if (cola == nullptr) {
             return -1;
@@ -99,22 +121,22 @@ namespace EIF201 {
         NodoLocutor* previo = cola;
         do {
             if (actual->nombre == nombre) {
-                if (actual == cabeza) {
+                if (actual == cabeza && actual == cola) {
+                    delete actual;
+                    cola = nullptr;
+                }
+                else {
+                    previo->siguiente = actual->siguiente;
                     if (actual == cola) {
-                        cola = nullptr;
-                    }
-                    else {
-                        previo->siguiente = actual->siguiente;
-                        if (actual == cola) cola = previo;
+                        cola = previo;
                     }
                     delete actual;
-                    actual = nullptr;
-                    cantidad--;
-                    return true;
                 }
-                previo = actual;
-                actual = actual->siguiente;
+                cantidad--;
+                return true;
             }
+            previo = actual;
+            actual = actual->siguiente;
         } while (actual != cabeza);
         return false;
     }
@@ -124,13 +146,18 @@ namespace EIF201 {
             }
             return eliminarLocutor(getCabeza()->nombre);
         }
+
         string RotacionCircular::siguiente() {
             if (cola == nullptr) {
                 return "";
             }
             cola = cola->siguiente;
-            return getCabeza()->nombre;
+            NodoLocutor* actual = getCabeza();
+            actual->turnosAsignados++;
+
+            return actual->nombre;
         }
+
         void RotacionCircular::simularTurnos(int n) {
             if (cola == nullptr) { cout << "Sin locutores en rotacion. " << endl; return; }
             for (int i = 0; i < n; i++) {
@@ -154,10 +181,40 @@ namespace EIF201 {
             } while (actual != cabeza);
             cout << " ->(inicio)" << endl;
         }
+        void RotacionCircular::imprimirEstadistica() const {
+            if (cola == nullptr) {
+                cout << "No hay Locutores!!" << endl;
+                return;
+            }
+            NodoLocutor* cabeza = getCabeza();
+            NodoLocutor* actual = cabeza;
+            cout << "\n--Estadísticas--" << endl;
+            do {
+                cout << actual->nombre << ": " << actual->turnosAsignados << " turnos" << endl;
+                actual = actual->siguiente;
+            } while (actual != cabeza);
+        }
+
         int RotacionCircular::getCantidad() const {
             return cantidad;
         }
         bool RotacionCircular::estaVacia() const {
             return cola == nullptr;
+        }
+
+        string RotacionCircular::locutorMasActivo() const {
+            if (cola == nullptr) {
+                return "";
+            }
+            NodoLocutor* cabeza = getCabeza();
+            NodoLocutor* actual = cabeza;
+            NodoLocutor* masActivo = cabeza;
+            do {
+                if (actual->turnosAsignados > masActivo->turnosAsignados) {
+                    masActivo = actual;
+                }
+                actual = actual->siguiente;
+            } while (actual != cabeza);
+            return masActivo->nombre;
         }
     }

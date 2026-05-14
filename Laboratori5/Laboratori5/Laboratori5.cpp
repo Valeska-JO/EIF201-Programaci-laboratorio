@@ -71,7 +71,9 @@ int main() {
         r.imprimirRotacion();
         // Rotacion actualizada sin Carlos ni el locutor activo al momento 
         cout << "Cantidad: " << r.getCantidad() << endl;
-
+        r.simularTurnos(10);
+        r.imprimirEstadistica();
+        cout << "\nLocutor mas activo: " << r.locutorMasActivo() << endl;
         // Caso extremo: lista con un solo locutor 
         r.eliminarLocutor("Adriana");
         while (!r.estaVacia()) r.eliminarTurnoActual();
